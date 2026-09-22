@@ -1,0 +1,49 @@
+{
+  "name": "@serafort/nuxt",
+  "version": "0.1.0",
+  "type": "module",
+  "description": "Nuxt 3 module for Serafort B2B authentication, reactive composables (useUser, useSerafort), and Nitro server guards.",
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js",
+      "require": "./dist/index.cjs",
+      "default": "./dist/index.js"
+    },
+    "./server": {
+      "types": "./dist/server.d.ts",
+      "import": "./dist/server.js",
+      "require": "./dist/server.cjs",
+      "default": "./dist/server.js"
+    }
+  },
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "scripts": {
+    "build": "tsup",
+    "type-check": "tsc --noEmit",
+    "test": "vitest run"
+  },
+  "dependencies": {
+    "@serafort/core": "link:../Javascript"
+  },
+  "peerDependencies": {
+    "@nuxt/kit": "^3.0.0",
+    "nuxt": "^3.0.0",
+    "vue": "^3.0.0"
+  },
+  "devDependencies": {
+    "@nuxt/kit": "^3.15.4",
+    "@types/node": "^22.0.0",
+    "h3": "^1.15.1",
+    "tsup": "^8.3.5",
+    "typescript": "^5.7.0",
+    "vitest": "^2.1.0",
+    "vue": "^3.5.13"
+  }
+}

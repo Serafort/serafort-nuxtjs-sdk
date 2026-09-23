@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       '@serafort/core':
-        specifier: github:Serafort/serafort-javascript-sdk#5a4964fc41f08754c174d29b4af73074df17a9df
-        version: https://codeload.github.com/Serafort/serafort-javascript-sdk/tar.gz/5a4964fc41f08754c174d29b4af73074df17a9df
+        specifier: ^0.1.0
+        version: 0.1.0
       nuxt:
         specifier: ^3.0.0
         version: 3.21.11(@oxc-project/types@0.143.0)(@types/node@22.20.4)(@vue/compiler-sfc@3.5.43)(cac@6.7.14)(db0@0.3.4)(esbuild@0.27.7)(ioredis@5.11.1)(magicast@0.5.5)(rollup-plugin-visualizer@7.1.1(rollup@4.63.4))(rollup@4.63.4)(srvx@0.11.22)(terser@5.51.2)(typescript@5.9.3)(vite@7.3.6(@types/node@22.20.4)(jiti@2.7.0)(terser@5.51.2)(yaml@2.9.1))(yaml@2.9.1)
@@ -1380,9 +1380,8 @@ packages:
     cpu: [x64]
     os: [win32]
 
-  '@serafort/core@https://codeload.github.com/Serafort/serafort-javascript-sdk/tar.gz/5a4964fc41f08754c174d29b4af73074df17a9df':
-    resolution: {tarball: https://codeload.github.com/Serafort/serafort-javascript-sdk/tar.gz/5a4964fc41f08754c174d29b4af73074df17a9df}
-    version: 0.1.0
+  '@serafort/core@0.1.0':
+    resolution: {integrity: sha512-TX3JB68dnuc+8DKR77oHG8qfTXoTCq94Y9rOh1GxJek8kGtpjk24L4KjZWOzRVV1NfO40Rl2OMzI7jjRAEDC6Q==}
 
   '@simple-git/args-pathspec@1.0.3':
     resolution: {integrity: sha512-ngJMaHlsWDTfjyq9F3VIQ8b7NXbBLq5j9i5bJ6XLYtD6qlDXT7fdKY2KscWWUF8t18xx052Y/PUO1K1TRc9yKA==}
@@ -5077,7 +5076,7 @@ snapshots:
   '@rollup/rollup-win32-x64-msvc@4.63.4':
     optional: true
 
-  '@serafort/core@https://codeload.github.com/Serafort/serafort-javascript-sdk/tar.gz/5a4964fc41f08754c174d29b4af73074df17a9df': {}
+  '@serafort/core@0.1.0': {}
 
   '@simple-git/args-pathspec@1.0.3': {}
 
